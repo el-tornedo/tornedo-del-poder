@@ -1,0 +1,117 @@
+body {
+     background-image: url(https://cdn.discordapp.com/attachments/903756875806421033/1298379660396068985/maxresdefault.jpg?ex=671959c9&is=67180849&hm=a79707b69fef471ecba62d2645960315cf775a7e59c367a69ce2583376b3f454&);
+    
+}  
+
+.upbare {
+    position: fixed;
+    top: 0;
+    left: 0; /* Garde left: 0 pour commencer à gauche */
+    width: 100vw; /* Largeur 100% de la fenêtre */
+    height: 100px; /* Ajuste la hauteur selon tes besoins */
+    background-color: #333;
+    padding-top: 0; /* Plus besoin de padding-top pour la version horizontale */
+    display: flex; /* Utilise flexbox pour organiser le contenu si nécessaire */
+    justify-content: space-between; /* Pour espacer les éléments à l'intérieur */
+    align-items: center; /* Centre verticalement le contenu dans la barre */
+    z-index: 10;
+}
+
+.upbare li {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.upbare  li a {
+    
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.upbare  li a:hover {
+    background-color: #575757;
+}
+
+.image1{
+    left: 0;
+    top: 0;
+    height: 100px
+   
+
+}
+
+.image2{
+    right: 0;
+    top: 0;
+    height: 100px
+    
+
+}
+
+.titre{
+    color: rgb(255, 0, 0);
+  padding-top: 110px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+.para1{
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    text-align: justify;
+    padding-right: 1000px;
+}
+
+.para1 img{
+   position: absolute;
+   width:  1000px;
+   height: 500px;
+   right: 0;
+   margin-top: -440px;
+   z-index: 1;
+}
+
+.para3{
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: middle;
+    padding: 50px;
+    padding-top: 25px;
+    
+
+}
+
+.para4{
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: middle;
+    padding: 50px;
+
+}
+
+.video4{
+    padding: 100;
+    height: 1000;
+    width: 1000;
+
+}
+
+.feet{
+    padding-top: 150px;
+    padding-left: 700px;
+    display: block;
+    
+   
+}
+
+

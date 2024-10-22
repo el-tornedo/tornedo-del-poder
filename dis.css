@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/903756875806421033/1298403214806224926/Sans_titre_5_20241022235037.png?ex=67196fb9&is=67181e39&hm=ccf272007283f0998581e893a6996f886bfeeebf328c08820d8b5eab2c8d68e6&);
+    background-size: cover;  
+    background-position: center; 
+   
+}
+
+.upbare {
+    position: fixed;
+    top: 0;
+    left: 0; /* Garde left: 0 pour commencer à gauche */
+    width: 100vw; /* Largeur 100% de la fenêtre */
+    height: 100px; /* Ajuste la hauteur selon tes besoins */
+    background-color: #333;
+    padding-top: 0; /* Plus besoin de padding-top pour la version horizontale */
+    display: flex; /* Utilise flexbox pour organiser le contenu si nécessaire */
+    justify-content: space-between; /* Pour espacer les éléments à l'intérieur */
+    align-items: center; /* Centre verticalement le contenu dans la barre */
+    z-index: 10;
+}
+
+.upbare li {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.upbare  li a {
+    
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.upbare  li a:hover {
+    background-color: #575757;
+}
+
+.image1{
+    left: 0;
+    top: 0;
+    height: 100px
+   
+
+}
+
+.image2{
+    right: 0;
+    top: 0;
+    height: 100px
+    
+
+}
+
+.titre{
+    color: rgb(255, 0, 0);
+  padding-top: 110px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
